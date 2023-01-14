@@ -1,0 +1,548 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800;900&display=swap'); 
+ body {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:'Poppins', sans-serif;
+	font-weight: 600;
+	color:#404044;
+
+}
+p{
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.img {
+	width: 100%;
+	height: auto;
+	transition: all 0.3s ease-out 0s;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.btn {
+	font-size: 14px;
+	font-weight: 600;
+	color: #595959;
+	border: 1px solid #505cfd;
+	padding: 15px 40px;
+	border-radius: 30px;
+	font-family: 'Poppins';
+}
+button:focus{
+	outline: 0;
+}
+
+/* Header css */
+.header-area {
+	margin: 0 60px;
+}
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin-left: 45px;
+}
+
+.main-menu ul li a {
+	color: #343434;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	padding: 45px 0;
+	display: inline-block;
+}
+
+.hire-btn {
+	margin-top: 25px;
+	margin-left: 55px;
+}
+.hire-btn a {
+	border: 1px solid #505cfd;
+	padding: 15px 50px;
+	display: inline-block;
+	border-radius: 30px;
+	color:#343434;
+}
+/* slider-area */
+.slider-area  img{
+	width: 100%;
+}
+.single-slider{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.slider-icon{
+margin-bottom: 20px;
+}
+.slider-icon a{
+	margin: 0 15px;
+	font-size: 18px;
+	color: #505cfd;
+}
+.slider-inner h2{
+	font-size: 72px;
+	font-weight: 600;
+	color:#595959;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.slider-inner p{
+color: #343434;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+/* feature css */
+.features-area {
+	margin-top: -150px;
+	position: relative;
+	z-index: 999;
+}
+.features-area .theme-bg{
+	border-radius: 10px;
+}
+.single-features{
+	padding: 60px 0;
+
+}
+.single-features i {
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 30px;
+	display: block;
+}
+.single-features h3 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.single-features p{
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0;
+	color:#fff;
+}
+
+/* leader css */
+.laptop-area img {
+  width: 100%;
+}
+
+.about-text h3 {
+	font-size: 32px;
+	line-height: 44px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.about-text h3::before{
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background: #505cfd;
+	bottom: 0;
+}
+.about-text p {
+	margin-bottom: 40px;
+}
+.about-text {
+	padding-left: 30px;
+}
+
+/* subcribe-area  */
+
+.text h3 {
+	font-size: 32px;
+	line-height: 44px;
+	margin-bottom: 20px;
+}
+.subcribe-form input {
+	width: 25%;
+	height: 45px;
+	padding: 0 20px;
+	border: none;
+	background: #fff;
+	margin-right: 10px;
+	border-radius: 30px;
+}
+.subcribe-form button {
+	margin-left: 20px;
+	border: 0;
+	background: #505cfd;
+	color: #fff;
+	padding: 10px 40px;
+	border-radius: 30px;
+	font-weight: 600;
+}
+
+/* service-area css */
+
+.service-area {
+	padding: 0 60px;
+}
+
+.service-wrapper {
+	border: 1px solid #ddd;
+	padding: 50px 30px;
+	border-radius: 6px;
+	transition: .3s;
+}
+.service-wrapper:hover{
+	background: #222;
+	border-color: #222;
+}
+.service-wrapper i {
+	font-size: 48px;
+	margin-bottom: 50px;
+	display: inline-block;
+	color: #505cfd;
+}
+.service-wrapper h3 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.service-wrapper p{
+margin-bottom: 60px;
+}
+.service-wrapper:hover h3{
+	color:#fff
+}
+.service-wrapper:hover p{
+	color: #777;
+}
+.service-wrapper:hover .btn{
+	color: #fff;
+}
+
+/* pricing css */
+
+
+.pricing-area {
+	background: #e7e8fe;
+}
+.pricing-wrapper{
+	border: 1px solid #cfd1fc;
+	padding-bottom: 40px;
+	transition: .3s;
+
+}
+.pricing-wrapper:hover{
+	box-shadow: 0 15px 30px 0 rgba(80,92,253,0.01);
+	background: #fff;
+	border: #fff;
+}
+ .pricing-text h3{
+font-size: 32px;
+line-height: 44px;
+}
+
+.pricing-wrapper h3{
+font-size: 22px;
+line-height: 30px;
+color: #3f3f3f;
+padding:30px 0;
+border-bottom: 1px solid #cfd1fc;
+margin: 0;
+}
+.pricing-wrapper span{
+font-size: 40px;
+font-weight: 600;
+line-height: 1;
+color: #505cfd;
+font-family:'Poppins', sans-serif;
+margin-top: 20px;
+display: inline-block;
+}
+.pricing-wrapper span span{
+	font-size: 20px;
+	font-weight: 500;
+	position: relative;
+	top:-12px;
+
+}
+.pricing-wrapper ul{
+	margin:30px 0 ;
+}
+.pricing-wrapper ul li{
+	line-height: 36px;
+}
+.pricing-item{
+	width: 28%;
+}
+.btn:hover{
+color:#fff;
+background: #505cfd;
+}
+
+
+/* counter css */
+
+.counter-wrapper i{
+font-size: 30px;
+color:#fff;
+margin-bottom: 30px;
+display: block;
+}
+.counter-wrapper span {
+	color: #fff;
+	font-size: 32px;
+	font-family:'Poppins', sans-serif;
+	margin-bottom: 10px;
+	display: block;
+}
+.counter-wrapper p{
+color: #fff;
+}
+
+/* team area css */
+
+.team-img img {
+	width: 100%;
+}
+.team-img::before {
+	position: absolute;
+	background: #fff;
+	opacity: 0;
+	content: "";
+	top: 30px;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	transition: .3s;
+	visibility: hidden;
+}
+
+.team-wrapper:hover .team-img::before{
+	opacity: 0.9;
+	visibility: visible;
+}
+.team-wrapper {
+	position: relative;
+}
+
+.team-info {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	transition: .3s;
+	visibility: hidden;
+}
+.team-wrapper:hover .team-info {
+	opacity: 1;
+	visibility: visible;
+}
+.team-info h3 {
+	font-size: 22px;
+	margin-bottom: 4px;
+}
+.team-icon a {
+	color: #333;
+	margin: 0px 6px;
+}
+.team-icon {
+	margin-top: 6px;
+}
+
+
+/* blog css */
+.blog-thumb img {
+  width: 100%;
+}
+.blog-content {
+	margin-left: 6px;
+}
+.blog-content h3 a {
+	font-size: 22px;
+	color: #3f3f3f;
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+
+}
+.blog-meta{
+	margin-bottom: 15px;
+}
+span.meta-line {
+	background: #444;
+	width: 30px;
+	height: 2px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.blog-content p{
+margin-bottom: 30px;
+}
+.blog-text{
+	margin-bottom: 40px;
+}
+.blog-text h3 {
+	font-size: 32px;
+}
+
+/* testimonial css */
+
+.testimonial-item {
+	background: rgba(255,255,255, 0.9);
+	padding: 60px 150px;
+}
+.testimonial-name {
+	margin-bottom: 20px;
+}
+.testimonial-name h4 {
+	font-size: 22px;
+	color: #505cfd;
+}
+.testimonial-active .slick-dots{
+	margin-top: -40px;
+	z-index: 9999;
+	position: relative;
+}
+.testimonial-active .slick-dots li button {
+	text-indent: -9999px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	padding: 0;
+	border: 2px solid #444;
+}
+.testimonial-active .slick-dots li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+
+.testimonial-active .slick-dots li.slick-active button{
+	background: #444;
+}
+
+ /* footer css */
+
+ .footer-widget h3 {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+.contact-list{
+	margin-bottom: 20px;
+	display: block;
+}
+u.contact-list li {
+	color: #777;
+	line-height: 36px;
+	text-decoration: none;
+	list-style: none;
+}
+.footer-icon a i {
+	color: #fff;
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+.footer-link li{
+	width: 50%;
+	float: left;
+}
+
+.footer-link li a {
+	color: #777;
+	line-height: 36px;
+	text-decoration: none;
+}
+.footer-link li a::before{
+	content: "\f105";
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+	margin-right: 8px;
+	
+}
+.footer-blog li{
+	margin-bottom: 20px;
+}
+.footer-blog li:last-child{
+	margin-bottom: 0;
+}
+.news-title h4 a {
+	color: #777;
+	font-size: 17px;
+	line-height: 1;
+	text-decoration: none;
+
+}
+.news-title span {
+	color:#777;
+}
+.blog-thumb {
+	float: left;
+}
+.news-title {
+	overflow: hidden;
+	padding-left: 15px;
+}
+.news-title h4 {
+	line-height: 1;
+	
+}
+
+/* copyright */
+
+.footer-menu ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+.footer-menu ul li a{
+	color: #777;
+}
+.copyright-text p{
+	color: #777;
+}
+.copyright-border {
+	border-top: 1px solid #777;
+	padding: 40px 0;
+}

@@ -1,0 +1,99 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .features-area {
+    margin-top: -80px;
+  
+}
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.main-menu ul li {
+  margin-left: 20px;
+}
+.features-area {
+  margin-top: 0px;
+  margin-top: 70px;
+}
+
+
+
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .header-area {
+    margin: 20px 40px;
+}
+.slider-inner h2 {
+  font-size: 40px;
+}
+.features-area {
+  margin-top: 70px;
+  
+}
+.laptop-area img {
+  margin-top: 40px;
+}
+.subcribe-form input {
+  width: 22%;
+}
+.blog-thumb img {
+  margin-top: 20px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .slider-inner h2 {
+    font-size: 40px;
+  }
+
+ .header-area {
+    margin: 20px 10px;
+}
+.features-area {
+  margin-top: 70px;
+  
+}
+.laptop-area img {
+  margin-top: 40px;
+}
+.subcribe-form input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.service-area {
+  padding: 0;
+}
+.pricing-item {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.testimonial-item {
+  background: rgba(255,255,255, 0.9);
+  padding: 51px 30px;
+}
+.testimonial-area {
+  background-position: center center;
+  background-size: cover;
+}
+.blog-thumb img {
+  margin-top: 20px;
+}
+.blog-thumb img {
+  margin-top: 20px;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
